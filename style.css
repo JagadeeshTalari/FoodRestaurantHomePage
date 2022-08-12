@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+body {
+  background-image: url("./assets/pexels-maxyne-barcel-104022821.png");
+  height: 100vh;
+  background-size: cover;
+}
+
+.container {
+  background: rgba(48, 55, 73, 0.88);
+  height: 100vh;
+  background-size: cover;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 30px;
+  position: relative;
+  top: 25px;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.list-item {
+  margin-top: 25px;
+  color: #ffc233;
+}
+
+.button-small {
+  width: 120px;
+  height: 40px;
+  background-color: #ff505f;
+  color: #ffffff;
+  border: none;
+  font-size: 18px;
+  margin-top: 15px;
+}
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* ---------- Restaurant bottom ------------ */
+
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: sandybrown; */
+  position: relative;
+  top: 70px;
+}
+
+.hero-heading {
+  text-align: center;
+  width: 1000px;
+  font-size: 100px;
+  font-family: "Red Rose";
+  font-weight: 900;
+  color: #ffc233;
+  gap: 5px;
+}
+
+.button-large {
+  width: 250px;
+  height: 70px;
+  background-color: #ff505f;
+  color: #ffffff;
+  font-size: 24px;
+  border: none;
+  margin-top: 20px;
+}
+
+.bottom > div > img {
+  height: 150px;
+  width: 150px;
+  margin-left: 1200px;
+}
+
+/* ------------------------------ */
